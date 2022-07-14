@@ -22,7 +22,7 @@ void MainComponent::paint (juce::Graphics& g)
     g.setFont(juce::Font(16.0f));
 
     g.fillCheckerBoard(juce::Rectangle<float>(20, 200, 160, 160), 20, 20, juce::Colours::white, juce::Colours::black);
-        
+        //comment! this is fun!
     // g.drawText ("Hello World!", getLocalBounds(), juce::Justification::centred, true);
 }
 
